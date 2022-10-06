@@ -1,0 +1,11 @@
+.container{
+    display: grid;
+    /*grid-auto-flow: column;*/
+    grid-template-columns: repeat(auto-fit,minmax(220px, 1fr));
+}
+.header{
+    display: grid;
+    justify-content: start;
+    gap: 30px;
+    grid-auto-flow: column;
+}
